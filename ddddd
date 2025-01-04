@@ -84,7 +84,7 @@ local Button = mainTab:CreateButton({
 local mainTab = Window:CreateTab("배드워즈", nil) -- Title, Image
 local mainSection = mainTab:CreateSection("배드워즈")
 
-local Button = mainTab:CreateButton({
+ local Button = mainTab:CreateButton({
    Name = "배드워즈 vape v4",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
@@ -92,15 +92,73 @@ local Button = mainTab:CreateButton({
 })
 
 local Button = mainTab:CreateButton({
-   Name = "Skid Vape",
+ Name = "Skid Vape",
    Callback = function()
    loadstring(game:HttpGet('https://skidvape.vercel.app/skidloader.lua'))()
    end, 
 })
 
 local Button = mainTab:CreateButton({
-   Name = "Voidware",
+ Name = "Voidware",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua", true))()
    end,    
+})
+
+local mainTab = Window:CreateTab("라이벌", nil) -- Title, Image
+local mainSection = mainTab:CreateSection("라이벌")
+
+local Button = mainTab:CreateButton({
+   Name = "라이벌 총알 자동마춤-서버 바뀔때마다 누르세요",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ThunderScriptSolutions/Misc/refs/heads/main/RivalsSilentAim'))()
+   end, 
+})
+
+local Button = mainTab:CreateButton({
+   Name = "SILENT HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/KxGOATESQUE/SilentRivals/main/silentsolara"))()
+   end, 
+})
+
+local Button = mainTab:CreateButton({
+   Name = "Phantom HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/5oxin/Phantom/main/main"))()
+   end, 
+})
+
+local Button = mainTab:CreateButton({
+   Name = "autowin",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/venoxhh/universalscripts/main/rivals/autowin.lua')))()
+   end, 
+})
+
+local Button = mainTab:CreateButton({
+   Name = "autowin2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/RivalsAutoFarmNice/main/Code"))()
+   end, 
+})
+
+local mainTab = Window:CreateTab("암살자vs보안관", nil) -- Title, Image
+local mainSection = mainTab:CreateSection("암살자vs보안관")
+
+local Button = mainTab:CreateButton({
+   Name = "살인자vs보안관 가장좋은스크",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
+   end, 
+})
+
+local mainTab = Window:CreateTab("럭키박스", nil) -- Title, Image
+local mainSection = mainTab:CreateSection("럭키박스")
+
+local Button = mainTab:CreateButton({
+   Name = "BONK HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
+   end, 
 })
