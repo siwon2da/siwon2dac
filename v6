@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "로블 허브 모아놓은 siwon허브 v6",
+   Name = "한때 레전드 였던 스크 ",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "v6허브 불러오기...",
-   LoadingSubtitle = "제작 HACK JANG 장시원",
+   LoadingTitle = "업데이트는 적으시면 해드림림",
+   LoadingSubtitle = "제작 한생DPS팀 ",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
